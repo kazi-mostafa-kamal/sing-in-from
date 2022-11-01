@@ -1,0 +1,52 @@
+body {
+    color: #737491;
+    font-family: 'Inter', sans-serif;
+    
+}
+a{
+    text-decoration: none;
+}
+.singin{
+    height: 100vh;
+}
+.sing-form{
+    width: 550px;
+    height: 550px;
+    position: relative;
+    background: url(../img/signin-illustration.png) no-repeat center / cover;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.sing-form-inner{
+    width: 400px;
+    height: 550px;
+    margin: auto;
+    padding: 30px;
+}
+.input-group i{
+    z-index: 9999;
+    
+}
+
+.singin-top input:focus ,
+.singin-top button:focus{
+    box-shadow: none;
+}
+
+
+
+.socile-icons .socile{
+    display: inline-block;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 1.7;
+}
+.socile-icons .socile:hover{
+    background: #737491;
+    color: aliceblue;
+}

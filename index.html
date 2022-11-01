@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap 5 - Section Development</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="vendors/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="vendors/css/bootstrap-icons.css" />
+    <link rel="stylesheet" href="resources/css/style.css" />
+  </head>
+  <body>
+    <!-- Start -->
+    <section class="singin bg-light py-5">
+      <div class="container">
+        <div class="row justify-content-center ">
+          <div class="sing-form">
+            <div class="sing-form-inner">
+              <div class="singin-top">
+                <h1 class="text-center text-black">Sign In</h1>
+                <p class="text-center text-black">Sign in to your account using email and password provided during registration.</p>
+                <div class="input-group mb-3">
+                  <i class="bi bi-envelope-fill position-absolute top-50 start-0 ms-3 translate-middle-y "></i>
+                  <input placeholder="email" class="form-control px-5" type="text">
+                </div>
+
+                <div class="input-group mb-3 rounded">
+                  <i class="bi bi-lock-fill position-absolute top-50 start-0 ms-3 translate-middle-y  "></i>
+                  <input class="form-control px-5" type="password" placeholder="password">
+                </div>
+                <div class="d-flex justify-content-between mb-3">
+                  <div class="cheek-box">
+                    <input class="form-check-input" type="checkbox" name="" id="sk">
+                    <label for="sk">Keep me signed in</label>
+                  </div>
+                    <a href="">Forgot password?</a>
+                    
+                </div>
+                <div class="button mb-3">
+                  <button type="submit" class="btn btn-lg btn-primary form-control">sing in</button>
+                </div>
+                <p class="mb-1 text-center">Don't have an account? <a href="">Sign Up</a></p>
+              </div>
+              <div class="singin-buttom text-center mt-3">
+                <p class="border-top py-3">Or sign in with</p>
+                <div class="socile-icons">
+                  <a href=""><i class="bi bi-facebook socile"></i></a>
+                  <a href=""><i class="bi bi-envelope socile"></i></a>
+                  <a href=""><i class="bi bi-heart-fill socile"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End -->
+
+    <!-- JS -->
+    <script src="vendors/js/bootstrap.bundle.min.js"></script>
+    <script src="resources/js/main.js"></script>
+  </body>
+</html>
